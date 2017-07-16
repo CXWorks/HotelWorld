@@ -1,50 +1,37 @@
 # HotelWorld
 J2EE technologies used to build a hotel booking systerm
 
-# 功能点
+## Profile
+HotelWorld is a hotel book system like [HostelWorld](http://www.hostelworld.com/) implemented by J2EE technologies.
+There are three roles of users imagined in the system as Customer, Hotel Manager and System Administrator. Each of them have their own
+User Cases.
 
-## 会员卡办理
-### 注册
-每位会员持有一张会员卡（7位识别码，系统自动分配）
-### 会员资格激活
-* 办卡后，一次交纳1000元以上激活；
-* 会费通过银行卡支付（数据库中的银行卡账号）；
-### 会员资格暂停/恢复/停止
-* 有效期一年，到期后卡上费用不足将暂停其记录；一旦支付，则恢复，会员记录可用；暂停1年后未支付，会员记录停止 ；（系统自动完成）
-### 会员资格取消
-* 会员可通知系统取消资格（即停止）
-### 会员卡级别
-* 根据消费金额
-* 设置不同级别，享受不同优惠
-* 获取积分，积分可兑换为卡金额
+**Customer**
++ Register & pay from bank card to become a member
+* Have his/her grades and privileges as a member
+* Grades can exchange money and member level can enjoy cut off
+* Search according to Ctiy and Time to book hotels, which can be payed online or in cash
+* Overview his/her own records and traces
 
-## 会员
-### 预订/取消预订
-* 会员卡支付
-### 修改卡信息
-### 查看本人统计信息
-* 预订/入住/消费等
+**Hotel Manager**
+* Apply for opening a hotel and provide basic information
+* Publish new plans and manage online books
+* Log customers' check in
+* View Statistics about book records & profit
 
-## 客栈
-### 注册
-* 每个店（7位识别码，系统自动分配）
-### 开店申请/修改店信息
-* 需Hostel World经理审批
-### 发布计划（未来一个时间段）
-* 时间，房间，价格等
-### 入/离店登记
-* 多人住宿
-* 会员/非会员
-* 会员卡/现金结账
-### 查看本店统计信息
-* 预订/入住/财务等
+**System Administrator**
+* Check managers' applications and make choices
+* View system's payments
+* View system's profit and engagement
 
-## Hostel World经理
-### 审批各店开店/修改信息的申请
-### 结算
-* 将会员卡支付结算给各店
-### 查看Hostel World统计信息
-* 各店入住情况
-* 会员预订/消费情况
-* Hostel World财务情况
-* 采用图表显示（可选）
+## Technologies
+The project include these following technologies and are built in maven. You can clone this project and run 
+*maven package* to built it. And the database create sql is also include in the project.
+
+## Run Time Screen Shot
+
+## Thanks For 
+
+## LICENSE
+
+**[MIT](LICENSE)** 
