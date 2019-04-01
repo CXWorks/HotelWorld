@@ -1,6 +1,8 @@
 # HotelWorld
 J2EE technologies used to build a hotel booking systerm
 
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+
 ## Profile
 HotelWorld is a hotel book system like [HostelWorld](http://www.hostelworld.com/) implemented by J2EE technologies.
 There are three roles of users imagined in the system as Customer, Hotel Manager and System Administrator. Each of them have their own
